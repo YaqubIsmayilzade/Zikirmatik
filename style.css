@@ -5,11 +5,11 @@ body{
 
 #holder{
     
-    scale: 2;
+    scale: 1.9;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-20%,-20%);
+    transform: translate(-26%,-22%);
 
     height: 230px;
     width: 180px;
