@@ -4,10 +4,12 @@ body{
 }
 
 #holder{
+    
+    scale: 2;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-70%);
+    transform: translate(-20%,-20%);
 
     height: 230px;
     width: 180px;
@@ -18,6 +20,7 @@ body{
     border: 1px solid;
     border-radius: 50px;
     padding-top: 15px;
+
 }
 
 #number{
