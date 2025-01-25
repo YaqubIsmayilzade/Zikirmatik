@@ -1,23 +1,43 @@
 body{
-    background-color: orangered;
+    background-color: #FADA7A;
     margin: 0px;
 }
 
 #holder{
     position: absolute;
-    border: 2px solid;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-70%);
 
-    height: 250px;
-    width: 200px;
+    height: 230px;
+    width: 180px;
+
+    background-color: #f7d367;
+    user-select: none;
+
+    border: 1px solid;
+    border-radius: 50px;
+    padding-top: 15px;
 }
 
 #number{
+    margin: 0px;
+    width: 120px;
+    height: fit-content;
+    color: #66705b;
+    background-color: #FADA7A;
+    
+
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,20%);
+    
+    padding-left: 6px;
+    font-family: consolas;
+    font-size: 3em;
+
+    border-radius: 13px;
+    border: 1px solid black;
 }
 #add{
     border-radius: 50%;
@@ -27,4 +47,19 @@ body{
     width: 100px;
     left: 50%;
     transform: translate(-50%,40%);
+    background-color: #F0A04B;
+
+    transition: 0.1s;
 }
+
+#reset{
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    left: 50%;
+    transform: translate(-230%,-170%);
+    background-color: #F0A04B;
+}
+
